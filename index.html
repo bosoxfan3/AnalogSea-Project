@@ -12,7 +12,21 @@
 	<img class="logo" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" alt="AnalogSea Logo">
 </header>
 
+<form action="/signup/" method="post">
+	<fieldset name="Initial Signup">
+			<legend>Sign Up</legend>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" required>
 
+				<label for="password">Password</label>
+				<input type="text" name="password" id="password" placeholder="1234passw0rd" required>
+	</fieldset>
+				<button type="submit">Sign up</button>
+				<a href="/forgot-password/new">Forgot password?</a>
+</form>
+
+<span>Already have an account?</span>
+<a href="/login">Log in</a>
 
 </body>
 
