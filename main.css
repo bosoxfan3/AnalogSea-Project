@@ -1,9 +1,12 @@
 * {
 	font-family: Roboto;
-}
+	margin: 0px auto;
+/*	box-sizing: border-box; */
 
+}
 body {
 	background-color: #337EE1;
+	
 }
 
 .logo {
@@ -40,7 +43,7 @@ fieldset {
 	padding-bottom: 20px;
 	font-size: 10pt;
 	text-align: left;
-	padding-left: 25px;
+	width: 320px;
 }
 
 .form-box input {
