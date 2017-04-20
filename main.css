@@ -1,10 +1,9 @@
 * {
-	background-color: #337EE1;
+	font-family: Roboto;
 }
 
 body {
-	margin-left: auto;
-	margin-right: auto;
+	background-color: #337EE1;
 }
 
 .logo {
@@ -13,5 +12,88 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
+}
+
+.form-box {
+	width: 400px;
+	height: 500px;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+fieldset {
+	border: 0;
+}
+
+.form-box legend {
+	text-align: center;
+	font-size: 24pt;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form-box label {
+	display: block;
+	padding-bottom: 20px;
+	font-size: 10pt;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.form-box input {
+	height: 25px;
+	width: 290px;
+	border: 1px thin gray;
+	border-radius: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+	font-size: 12pt;
+	display: block;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.form-box button {
+	height: 55px;
+	width: 322px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: green;
+	color: white;
+	border-radius: 2px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	border-color: green;
+}
+
+.form-box button:hover {
+	background-color: darkgreen;
+	border-color: darkgreen;
+}
+
+.form-box a {
+	display: block;
+	text-align: center;
+	color: gray;
+	font-size: 10pt;
+	padding-top: 10px;
+}
+
+.centered {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	font-size: 10pt;
+}
+
+.centered a, .centered span {
+	color: white;
 }
